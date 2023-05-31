@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(15,15,15);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Header{
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  justify-content: space-between;
+  padding: 5px 70px;
+  color: white;
+}
+
+.Header img{
+  height:60px;
+}
+
+.logohead{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+/* Form css starts */
+
+.formdiv{
+  margin-top: 60px;
+}
+
+.forminputs{
+  display: flex;
+  column-gap: 30px;
+  justify-content: center;
+}
+
+.forminputs input{
+  height: 38px;
+  width: 24vw;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border:1px solid grey;
+}
+
+.formdiv button{
+  margin-top: 50px;
+  width: 500px;
+  /* height: 40px; */
+  font-size: 20px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+/* Form css ends */
+
+.memeImage{
+  margin-top: 40px;
+}
